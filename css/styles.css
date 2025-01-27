@@ -1,0 +1,111 @@
+/* Import Raleway Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+/* General styling */
+body {
+    font-family: 'Raleway', sans-serif; /* Apply Raleway font to the entire page */
+    background: linear-gradient(135deg, #b6b6b6 0%, #fbfcff 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif; /* Use Raleway for headings */
+    font-weight: 600; /* You can adjust the weight for headings */
+}
+
+h1 {
+    text-align: center; /* Centers the heading horizontally */
+    font-family: 'Raleway', sans-serif; /* Uses the Raleway font */
+    font-weight: 600; /* Adjusts the font weight for a bolder heading */
+    font-size: 2.5em; /* Increases the font size for prominence */
+    color: #333; /* Sets a color for the text */
+    margin-top: 50px; /* Adds space above the heading */
+}
+
+
+input, select, textarea {
+    font-family: 'Raleway', sans-serif; /* Use Raleway for form inputs */
+    font-weight: 400;
+}
+
+button {
+    font-family: 'Raleway', sans-serif; /* Use Raleway for buttons */
+    font-weight: 600;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Form styling */
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #005f6b;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
