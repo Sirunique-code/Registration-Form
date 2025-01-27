@@ -147,10 +147,10 @@
 
                 <label>
                     <input type="checkbox" name="consent_notifications" value="yes"> I agree to receive notifications
-                </label>
+                </label><br>
                 <label>
                     <input type="checkbox" name="consent_media" value="yes"> I consent to media use
-                </label>
+                </label><br>
                 <label>
                     <input type="checkbox" name="consent_data" value="yes" required> I agree to data storage
                 </label>
